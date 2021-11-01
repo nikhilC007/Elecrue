@@ -27,6 +27,23 @@ git pull upstream main
 
 ### 5. Get coding!
 
+Once you have cloned the repro, you now need to install the dependency packages.
+
+```
+cd Elecrue
+npm install
+npm start
+```
+
+If you prefer using [Yarn](https://yarnpkg.com/), then replace `npm` with `yarn` above.
+
+Once the the package is built and ready you now have a working Elecrue branch.
+You can now safely make changes to the app functionality.
+
+>Make sure to add unit tests to ensure app works in all scenarios.
+
+Follow step #6 to keep checking in your changes to your branch as you develop your feature.
+
 ### 6. Commit your changes
 ```
 git commit -m "commit message describing change" 
